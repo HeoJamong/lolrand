@@ -10,17 +10,18 @@ function PlayerInputForm({ players, setPlayers }) {
   };
 
   return (
-    <div>
+    <div className="card">
+      <h2 style={{ marginBottom: "1rem" }}>플레이어 입력</h2>
       {positions.map((pos) => (
-        <div key={pos}>
-          <strong>{pos}</strong>{" "}
+        <div key={pos} className="input-line">
+          <label>{pos}</label>
           {[0, 1].map((i) => (
             <input
               key={i}
+              className="styled-input"
               value={players[pos][i]}
               onChange={(e) => handleChange(pos, i, e.target.value)}
               placeholder={`${pos} ${i + 1}`}
-              style={{ margin: "0.2rem" }}
             />
           ))}
         </div>

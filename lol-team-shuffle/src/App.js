@@ -52,15 +52,11 @@ function App() {
   };
 
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        gap: "1rem",
-      }}
-    >
-      <h1>롤랜드 내전 팀 설정</h1>
+    <div>
+      <h1
+        style={{ fontSize: "2rem", fontWeight: "bold", marginBottom: "1rem" }}>
+        롤 내전 팀 설정
+      </h1>
       <PlayerInputForm players={players} setPlayers={setPlayers} />
       <ShuffleButton onClick={shuffleTeams} />
       <TeamDisplay
