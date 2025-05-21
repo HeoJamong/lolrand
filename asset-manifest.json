@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HeoJamong/lolrand/static/css/main.413d561e.css",
+    "main.js": "/HeoJamong/lolrand/static/js/main.8578a31a.js",
+    "static/js/453.33512b44.chunk.js": "/HeoJamong/lolrand/static/js/453.33512b44.chunk.js",
+    "index.html": "/HeoJamong/lolrand/index.html",
+    "main.413d561e.css.map": "/HeoJamong/lolrand/static/css/main.413d561e.css.map",
+    "main.8578a31a.js.map": "/HeoJamong/lolrand/static/js/main.8578a31a.js.map",
+    "453.33512b44.chunk.js.map": "/HeoJamong/lolrand/static/js/453.33512b44.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.413d561e.css",
+    "static/js/main.8578a31a.js"
+  ]
+}
